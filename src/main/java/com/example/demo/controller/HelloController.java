@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("api/hello")
     public String printHello(){
-       
+        System.out.println("hiiii");
         return "Hello";
     }
 }
